@@ -37,7 +37,7 @@ spec:
             secretName: "rook-${DOMAIN_2/./-}-tls"
     cephClusterSpec:
       cephVersion:
-        image: quay.io/ceph/ceph:v17.2.1
+        image: quay.io/ceph/ceph:v17.2.3
       # TODO(rook-ceph): Enable host network on next rebuild
       # network:
       #   provider: host
